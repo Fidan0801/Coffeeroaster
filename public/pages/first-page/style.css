@@ -1,0 +1,66 @@
+.hero {
+  background-image: url(../../assests/images/vecteezy_ai-generated-flat-lay-coffee-cup-with-tulip-flower-background_36395525.jpg);
+  height: 70vh;
+}
+
+.steps__content {
+  width: 65vw;
+}
+
+.collection h1 {
+  font-size: 140px;
+  font-weight: 800;
+  color: rgba(128, 128, 128, 0.296);
+}
+
+.collection__items {
+  display: flex;
+}
+
+.collection__items h4 {
+  font-size: 20px;
+}
+
+.features {
+  background-color: rgb(34, 34, 49);
+  border-radius: 15px;
+  color: white;
+  padding: 60px 0;
+  height: 60vh;
+}
+
+.features__content {
+    position: relative;
+    width: 60vw;
+}
+
+.features__boxes {
+  position: absolute;
+  top: 180px;
+  display: flex;
+  gap: 60px;
+}
+
+.features__box {
+  background-color: darkcyan;
+  border-radius: 5px;
+  height: 40vh;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+.features__title {
+    width: 30vw;
+}
+
+.steps__content, .features__content, .features__title {
+    margin: 0 auto;
+}
+
+.collection, .features {
+    text-align: center;
+}
+
+.collection__items h4, .features__box h4 {
+    margin: 20px 0;
+}

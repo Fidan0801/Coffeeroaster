@@ -1,0 +1,96 @@
+.hero {
+  background-image: url(../../assests/images/vecteezy_coffee-with-heart-shape-on-brown-background_56036218.jpeg);
+  height: 50vh;
+}
+
+.steps__card {
+  border-radius: 15px;
+  height: 60vh;
+}
+
+.steps {
+  margin: 0 auto;
+  width: 65vw;
+}
+
+.container--flex {
+  display: flex;
+  width: 70%;
+  gap: 200px;
+}
+
+.sidebar {
+  margin-top: 30px;
+}
+
+hr {
+  margin: 20px 0;
+  width: 15vw;
+}
+
+a:active {
+  color: rgba(0, 0, 0, 0.468);
+}
+
+.options button {
+  width: 13vw;
+  height: 27vh;
+  border-radius: 5px;
+  border: none;
+}
+
+.options button:active {
+  background-color: darkcyan;
+}
+
+.options h4 {
+  margin-bottom: 20px;
+}
+
+.options summary {
+  color: rgba(128, 128, 128, 0.801);
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 40vw;
+}
+
+.order__summary {
+  margin-bottom: 30px;
+}
+
+.order__summary p {
+  margin: 30px;
+}
+
+.steps__card,
+.order__summary {
+  background-color: rgb(34, 34, 49);
+}
+
+.steps,
+.options button:active,
+.order__summary {
+  color: white;
+}
+
+.sidebar,
+a {
+  color: rgba(128, 128, 128, 0.628);
+}
+
+.sidebar,
+.options h4 {
+  font-size: 20px;
+}
+
+.sidebar,
+.options summary,
+.order__summary p {
+  font-weight: 700;
+}
