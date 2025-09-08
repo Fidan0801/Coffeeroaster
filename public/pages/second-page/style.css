@@ -39,7 +39,7 @@ a:active {
   border: none;
 }
 
-.options button:active {
+.options button:focus {
   background-color: darkcyan;
 }
 
@@ -74,7 +74,7 @@ a:active {
 }
 
 .steps,
-.options button:active,
+.options button:focus,
 .order__summary {
   color: white;
 }
